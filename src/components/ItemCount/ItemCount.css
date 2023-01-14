@@ -1,0 +1,142 @@
+.ItemCountContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+  height: 40%;
+}
+
+.itemCountTitle{
+  color: #b12025;
+  font-size: 1rem;
+}
+
+.add{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: rgba(115, 44, 44, 0);
+  color: #b12025;
+}
+
+.add:active,
+.buy:active{
+  background-color: #B12025;
+}
+
+.buy{
+  margin-top: 25px;
+  width: 80%;
+  border: 1px solid white;
+  font-size: 1rem;
+  padding: 5px;
+  background-color: #252525;
+  color: white
+}
+
+.buttonsContainer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+}
+
+.buyButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.copiesLeft{
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  width: fit-content;
+  color: #b12025;
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 10px;
+}
+
+
+@media (min-width: 768px) {
+
+
+  .ItemCountContainer{
+    margin-top: 10px;
+    width: 100%;
+    height: 40%;
+  }
+  
+  .add{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 1.8rem;
+  }
+  
+  .add:hover,
+  .buy:hover{
+    background-color: #424242;
+  }
+  
+  .buy{
+    margin-top: 0;
+  }
+  
+  .buttonsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+  }
+  
+  .buyButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+  }
+  
+  .copiesLeft{
+    font-size: 1rem;
+  }
+
+  .buttonsContainer{
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .itemCountTitle{
+    font-size: 1.5rem;
+  }
+  
+  .add{
+    font-size: 2rem;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .buy{
+    font-size: 1.3rem;
+  }
+
+  .copiesLeft{
+    font-size: 1.3rem;
+  }
+
+  .buttonsContainer{
+    font-size: 3rem;
+  }
+}
