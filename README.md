@@ -45,8 +45,8 @@ $ npm start
 
 ## Contacto
 
-<a href="https://www.linkedin.com/in/sebastian-alfieri-43b22121b/">LinkedIn</a>
-Email: sebasalfieri@gmail.com
+<a href="https://www.linkedin.com/in/axel-szumskij-3396181b6/">LinkedIn</a>
+Email: szumskij.axel@hotmail.com
 
 ## Herramientas utilizadas
 
